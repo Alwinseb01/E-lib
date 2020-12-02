@@ -1,0 +1,41 @@
+<html>
+<head></head><title>Signup</title>
+<link rel="stylesheet" href="signupstyle.css">
+<script type="text/javascript" src="signuplogin.js"></script>
+<script type="text/javascript" src="signup.js"></script>
+</head>
+<body>
+	
+	<center><h1 align="center">Sign-up</h1></center><br>
+	<form name="GForm" action="#" method="POST" onsubmit="window.location.href = 'loginframe.html';">
+Enter User Name: <input type="text" name="uname" id="uname">
+<div class="help-tip">
+				<ul>
+					<li>The Username field must not be empty.</li>
+					<li>The Username must contain only  characters.</li>
+					<li>The Useranme must be 5 to 15 cahracters long.</li>
+				</ul>
+			</div>
+<br><br>
+Enter Mobile Number: <input type="text" name="mno" id="mobileno">
+<br><br>
+Enter EMail ID: <input type="text" name="mail" id="email" >
+<br><br>
+Enter Password: <input type="password" name="pass" id="pass"> <img src="icon.png" onmouseover="mouseoverPass()" onmouseout=" mouseoutPass()">
+<div class="help-tip">
+				<ul>
+					<li>The password field must not be empty.</li>
+					<li>The password must be atleast 8 characters long.</li>
+					<li>The Password must contain atleast one uppercase letter,one lowercase letter and one numeric digit.</li>
+				</ul>
+			</div>
+<br><br>
+Re-Enter Password: <input type="password" name="password" id="repassword"> <div class="help-tip">
+				<p>Should be same as the entered password.</p>
+			</div> 
+
+<br><br>
+<input type="submit" value="Signup" onclick="validates()">
+</form>
+</body>
+</html>

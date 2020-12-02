@@ -1,0 +1,243 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  font-family: futura;
+  font-color: white;
+}
+p
+{
+  font-family: futura;
+  font-color: white;
+}
+body
+{
+  overflow-x: hidden;
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0)),url(lib2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.lib
+{
+  cursor: url(light.jpg),auto;
+}
+.tr
+{
+  margin-top: 25px;
+  font-size: 40px;
+  font-family: futura;
+  text-transform: uppercase;
+  padding-left: 10px;
+  cursor: pointer;
+}
+.para
+{
+  position: absolute;
+  color: white;
+}
+h1
+{
+  margin-top: 220px;
+  letter-spacing: 2px;
+  font-size: 42px;
+  font-family: futura;
+  padding-left: 10px;
+  text-transform: uppercase;
+}
+.quote
+{
+  text-transform: uppercase;
+  padding-left: 10px;
+  font-family: futura;
+  font-size: 20px;
+}
+.button
+{
+  margin-top:130px;
+  margin-left: 1040px;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: grey;
+  color:white;
+  font-family: futura;
+  font-weight: bolder;
+  font-size: 20px;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+  border-style: none;
+  width: 170px;
+  transition: 1s;
+}
+.button
+{  background-color: Transparent;
+  font-size: 0px;
+  width: 0px;
+  height: 0px
+}
+
+ul
+{
+  padding: 0;
+  list-style: none;
+  background: rgba(0,0,0,0);
+  position: absolute;
+  top: 0;
+  margin-left: 230px;
+}
+ul li
+{
+  display: inline-block;
+  line-height: 21px;
+  text-align: left;
+  width: 200px;
+  padding-left: 50px;
+  padding-top: 19px;
+}
+ul li .navanchor
+{
+       font-family: futura;
+       font-size: 25px;
+       display: block;
+       padding: 8px 25px;
+       color: #ffffff;
+       text-decoration: none;
+}
+ul li a
+{
+  transition: 0.5s;
+}
+ul li a:hover
+{
+       color: orange;
+}
+ul li ul.dropdown
+{
+       width: 100px;
+       background: rgba(0,0,0,0);
+       display: none;
+       position: absolute;
+       left:289px;
+       top:51px;
+
+
+}
+ul li:hover ul.dropdown
+{
+        display: block;
+}
+ul li ul.dropdown li
+{
+        display: block;
+}
+.login
+{
+  border-radius: 10px;
+  width:100px;
+  height: 40px;
+  border-style:inset;
+  transition: 2s;
+  font-weight: bold;
+  background-color: rgba(0,0,0,0);
+  margin-left: 80px;
+  border: 2px solid white;
+  color:white;
+}
+.login:hover
+{
+  width:150px;
+  color:black;
+  background-color: orange;
+  cursor: pointer;
+  border-color: black;
+
+}
+.signup
+{
+  margin-top: 20px;
+  margin-left: 35px;
+  width:200px;
+  height:50px;
+  font-family: futura;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  border-radius: 10px;
+  border-style: inset;
+  text-transform: uppercase;
+  background-color: transparent;
+  transition: 0.5s;
+}
+.signup:hover
+{
+    cursor: pointer;
+    background: orange;
+    color:black;
+    border-color: black;
+}
+.foot
+{
+  position: absolute;
+  margin-top: 610px;
+  width: 100%;
+  color: white;
+  background-color: rgba(0,0,0,0.8);
+}
+.foot ul
+{
+  float: left;
+  font-size: 20px;
+  margin-left: 0;
+}
+hr
+{
+  margin-top: 45px;
+  width: 80%;
+  margin-left: 89px;
+  background-color: black;
+}
+.cpy
+{
+  text-align: center;
+  font-size: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.footlist li
+{
+  width:250px;
+}
+.footlist li a
+{
+  padding-left: 50px;
+  text-decoration: none;
+  color: white;
+  transition: 1s;
+}
+.footlist li a:hover
+{
+  color: orange;
+  letter-spacing: 0.5px;
+}
+
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+
+::-webkit-scrollbar-track {
+  background: black; 
+}
+ 
+
+::-webkit-scrollbar-thumb {
+  background: orange; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ffcc00; 
+}

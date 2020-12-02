@@ -1,0 +1,109 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  font-family: futura;
+  font-color: white;
+
+}
+p
+{
+  font-family: futura;
+  font-color: white;
+}
+body
+{
+  overflow-x: hidden;
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0)),url(lib2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.lib
+{
+  cursor: url(light.jpg),auto;
+}
+.tr
+{
+  margin-top: 25px;
+  font-size: 40px;
+  font-family: futura;
+  text-transform: uppercase;
+  padding-left: 10px;
+  cursor: pointer;
+}
+
+
+ul
+{
+  padding: 0;
+  list-style: none;
+  background: rgba(0,0,0,0);
+  position: absolute;
+  top: 0;
+  margin-left: 230px;
+}
+ul li
+{
+  display: inline-block;
+  line-height: 21px;
+  text-align: left;
+  width: 200px;
+  padding-left: 50px;
+  padding-top: 19px;
+}
+ul li .navanchor
+{
+       font-family: futura;
+       font-size: 25px;
+       display: block;
+       padding: 8px 25px;
+       color: #ffffff;
+       text-decoration: none;
+}
+ul li a
+{
+  transition: 0.5s;
+}
+ul li a:hover
+{
+       color: orange;
+}
+ul li ul.dropdown
+{
+       width: 100px;
+       background: rgba(0,0,0,0);
+       display: none;
+       position: absolute;
+       left:289px;
+       top:51px;
+
+
+}
+ul li:hover ul.dropdown
+{
+        display: block;
+}
+ul li ul.dropdown li
+{
+        display: block;
+}
+
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+
+::-webkit-scrollbar-track {
+  background: black; 
+}
+ 
+
+::-webkit-scrollbar-thumb {
+  background: orange; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ffcc00; 
+}

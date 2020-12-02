@@ -1,0 +1,81 @@
+*
+{
+ 
+  font-family: futura;
+  font-color: black;
+  font-weight: bold;
+}
+p
+{
+  font-family: futura;
+  font-color: black;
+}
+img
+{
+  height: 300px;
+  width: 250px;
+  border-radius: 20px;
+  transition: 1.5s;
+  
+  margin-top: 0px;
+}
+img:hover
+{
+  height: 350px;
+  width: 300px;
+  border-radius: 20px;
+  transition: 1.5s;
+}
+
+a
+{
+      font-family: futura;
+       font-size: 20px;
+       color: black;
+       font-weight: bold;
+       text-decoration: none;
+}
+
+a:hover
+{
+      font-family: futura;
+       font-size: 30px;
+       color: orange;
+       font-weight: bold;
+       text-decoration: none;
+       transition: 1s;
+}
+body
+{
+  overflow-x: hidden;
+  background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0))
+  background-size: cover;
+  background-position: center;
+  background-color:  #ffffcc;
+   box-shadow: inset 0 0 5em 1em #000;
+}
+
+ul
+{
+  list-style-image: url("booksicon.png"); 
+  line-height:900%;
+}
+
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+
+::-webkit-scrollbar-track {
+  background: black; 
+}
+ 
+
+::-webkit-scrollbar-thumb {
+  background: orange; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ffcc00; 
+}
